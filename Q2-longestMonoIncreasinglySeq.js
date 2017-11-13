@@ -12,8 +12,8 @@ for(var i=0; i<= bigArray.length-1; ++i)
         subArr.push( bigArray[i] );
         j++;
     }
-    var c = find(subArr, 0, j, bigArray[i]); // perform search operation in subArr 
-    subArr[c] = bigArray[i];                 // and after getting the result,start all over again
+    var c = find(subArr, 0, j, bigArray[i]);        // perform search operation in subArr 
+    if (c !== false)  subArr[c] = bigArray[i];      // and after getting the result,start all over again
 }
 
 console.log("longest subsequence:  ",subArr);
