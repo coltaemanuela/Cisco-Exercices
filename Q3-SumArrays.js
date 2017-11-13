@@ -17,7 +17,7 @@ function result (array1, array2, givenNumber) {
         }
     }
 }
-//call the function result() with its 3 parameters: array1, array2 and a given number. Here, I will hardcode them for the purpose pf testing
+//call the function result() with its 3 parameters: array1, array2 and a given number. Here, I will hardcode them for the purpose of testing
 result( [0, 1, 2, 3, 4, 7, 8, 9,  23, 24, 42], [-2, 0, 3, 4, 7, 8, 9, 23, 24],   14);
 
 /*-------------------------------------Q3B---Complexity description ---------------------------------------------------
