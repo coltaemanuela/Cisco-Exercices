@@ -19,3 +19,12 @@ function result (array1, array2, givenNumber) {
 }
 //call the function result() with its 3 parameters: array1, array2 and a given number. Here, I will hardcode them for the purpose pf testing
 result( [0, 1, 2, 3, 4, 7, 8, 9,  23, 24, 42], [-2, 0, 3, 4, 7, 8, 9, 23, 24],   14);
+
+/*-------------------------------------Q3B---Complexity description ---------------------------------------------------
+
+    For the implementation of the solution with 2 sorted arrays, I iterated both of the arrays, but NOT in nested fors, 
+    which means that the complexity is not O(N^2), but is less: 2 O(N). 
+    I have 2 linear searches. Each loop has the O(N) comeplexity - is executed in n time.
+    N is equal to the dimension of the array.
+
+---------------------------------------------------------------------------------------------------------------------*/
